@@ -1,9 +1,13 @@
 
+import { useState } from 'react';
 import './App.css';
 import HeaderSection from './components/headerSection';
 import ListSection from './components/listSection';
 
 function App() {
+   
+  const [todoList, useTodoList] = useState([])
+
   return (
     <div>
       <div className='h-screen overflow-hidden flex items-center justify-center bg-red-500'>
