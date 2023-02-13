@@ -39,7 +39,7 @@ function ListSection( { todoList, setTodoList, filterVal } ) {
          <button className="flex-no-shrink px-2 py-1 rounded border-2 text-red border-red hover:text-white hover:bg-red-600 duration-300"
                  onClick={() => handleDelete(item.id)}
          >
-            delete
+            🗑
          </button>
      </div>
        ))}
