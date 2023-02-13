@@ -34,9 +34,9 @@ function HeaderSection( { todoList, setTodoList, filterVal, setFilterVal } ) {
                     onChange={(e) => setFilterVal(e.target.value)}
                     value={filterVal} 
                     className="shadow appearance-none border rounded py-2 px-3 text-grey-darker flex-no-grow">
-                    {/* <option value='all'>all</option>
-                    <option value='completed'>completed</option>
-                    <option value='uncompleted'>uncompleted</option> */}
+                    {/* <option value='all'>All</option>
+                    <option value='completed'>Completed</option>
+                    <option value='uncompleted'>Uncompleted</option> */}
                     {selectedValues.map((item, index) => (
                         <option value={item.value} key={`filter_values ${index}`}>{item.name}</option>
                     ))}

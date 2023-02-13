@@ -25,6 +25,7 @@ function App() {
             <ListSection
               todoList={todoList}
               setTodoList={setTodoList}
+              filterVal={filterVal}
             />
           </div>
         </div>        
